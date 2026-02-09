@@ -2,6 +2,7 @@ import streamlit as st
 
 st.title("BrainFuel")
 st.subheader("Calculateur de fonctions mathématiques") 
+st.write("Pour les fonctions trigonométriques comme arcsin, arcos, arctan ,Veuillez écrire asin, acos, atan respectivement. Par exemple : asin(x), acos(x) ou atan(x).")
 
 with st.form("search_form"):
     st.write("Entrez une fonction de x. Exemple : x**2 + 3*x + 2")
